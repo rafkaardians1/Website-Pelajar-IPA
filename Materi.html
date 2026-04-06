@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+    <html lang="id">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Pelajar IPA</title>
+        </head>
+        <style>
+    *{
+        font-family: Arial, Helvetica, sans-serif
+    }
+    p {
+        font-size: 10;
+    }
+    body{
+        margin:0;
+        font-family:Arial, sans-serif;
+        background:#f4f6fb;
+    }
+    nav{
+        background:#aa6ff8;
+        padding:15px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        border: 2px black solid;
+    }
+    .menu{
+        display:flex;
+        gap:30px;
+    }
+    .menu a{
+        color:white;
+        text-decoration:none;
+        font-weight:bold;   
+    }
+    .hamburger{
+        display:none;
+        font-size:25px;
+        background:none;
+        border:none;
+        color:white;
+        cursor:pointer;
+    }
+    .pembukaan{
+        text-align:center;
+        padding:60px 20px;
+        background:#66b5fa;
+        color:white;
+        border: 1px black solid;
+    }
+    .pembukaan h1{
+        font-size:40px;
+        margin-bottom:10px;
+    }
+    .PapanLevel {
+        background: #aa6ff8;
+        margin-top: 10px;
+        padding:60px 30px;
+        border-radius: 15px;
+        border: 2px black solid;
+    }
+    .PapanLevel a{
+        text-decoration: none;
+    }
+    .level{  
+        padding:25px;
+        margin: 20px;
+        background: #409ef0;
+        width: 8vw;
+        color: rgb(236, 238, 241);
+        font-size:18px;
+        border-radius:8px;
+        cursor:pointer;
+        text-align: center;
+        border: 1px black solid;
+    }
+    .level:hover{
+        transform: scale(1.2);
+    }
+    .levelatas {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .logo-text{
+            color:white;
+            font-weight:bold;
+            font-size:20px;
+    }
+@media(max-width:700px){
+        nav{
+            flex-direction:column;
+            align-items:center;
+            justify-content: space-between;
+        }
+        .pembukaan h1{
+            font-size:28px;
+        }
+        .hamburger{
+            display:block;
+            justify-content: left;
+    }
+        .menu{
+            display:none;
+            flex-direction:column;
+            position:absolute;
+            top:60px;
+            left:0;
+            width:100%;
+            background:#409ef0;
+            padding:20px;
+            border: 1px black solid;
+        }
+        .menu.show{
+            display:flex;
+        }
+        .Text{
+            display:flex;
+            align-items:center;
+            gap:10px;
+        }
+        .level{
+            padding:24px;
+            margin: 7px;
+            background: #409ef0;
+            width: 16vw;
+            color: rgb(245, 242, 237);
+            font-size:18px;
+            border-radius:8px;
+            cursor:pointer;
+            text-align: center;
+            border: 1px black solid;
+        }
+    }
+        </style>
+    <body>
+        <nav>
+            <div class="Text">
+                <button class="hamburger" onclick="toggleMenu()">
+                    ☰
+                    <span class="logo-text">PELAJAR IPA</span>
+                </button>
+            </div>
+            <div class="menu" id="menu">
+                <a href="index.html">Home</a>
+                <a href="Materi.html">Materi</a>
+                <a href="Perang.html">Perang</a>
+                <a href="Tentang kami.html">Info</a>
+            </div>
+        </nav>
+            <section class="pembukaan">
+                <h1>Selamat datang di Ruang Materi</h1>
+                <p>Belajar materi IPA kini jadi lebih seru!</p>
+            </section>
+            <section class="PapanLevel">
+                <h1 style="text-align:center ;font-weight: bolder;margin-top: -30px;">
+                    BELAJAR FISIKA YUK!
+                </h1>
+                    <section class="levelatas">
+                        <a href="Level Fisika/level1.html">
+                            <div class="level">
+                                <h3>LEVEL 1 FISIKA</h3>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="level">
+                                <h3>LEVEL 2 FISIKA</h3>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="level">
+                                <h3>LEVEL 3 FISIKA</h3>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="level">
+                                <h3>LEVEL 4 FISIKA</h3>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="level">
+                                <h3>LEVEL 5 FISIKA</h3>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="level">
+                                <h3>LEVEL 6 FISIKA</h3>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="level">
+                                <h3>LEVEL 7 FISIKA</h3>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="level">
+                                <h3>LEVEL 8 FISIKA</h3>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="level">
+                                <h3>LEVEL 9 FISIKA</h3>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="level">
+                                <h3>LEVEL 10 FISIKA</h3>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="level">
+                                <h3>LEVEL 11 FISIKA</h3>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="level">
+                                <h3>LEVEL 12 FISIKA</h3>
+                            </div>
+                        </a>
+                    </section>
+            </section>
+    </body>
+    <script>
+        function toggleMenu(){
+        let menu = document.getElementById("menu");
+        menu.classList.toggle("show");
+        }
+    </script>
+</html>

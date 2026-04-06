@@ -1,0 +1,129 @@
+<!DOCTYPE html> 
+<html lang="id">
+    <head>
+        <meta charset="utf-8">
+        <title>PelajarIpa</title>
+    </head>
+    <style>
+        .logo {float: right;
+                margin-top: -22px;}
+        .event {text-align:left;
+                 margin-top: -450px;
+                margin-left: 660px;}
+    </style>
+        <nav>
+        <a href="beranda">Beranda</a>
+        <a href="Event">Event</a>
+        <a href="#">Pertempuran</a>
+        <a href="Pepustakaan">Perpustakaan</a>
+        <a href="Toko">Toko</a>
+        <a href="Tentang Kami">Tentang kami</a>
+        <div class="logo">
+        <img src="PelajarIpaFoto/harimau kece aseekkkk.png" alt="Harimau Kece Pelajar Ipa" width="70px">
+    </nav>
+    <style>
+        nav {background-color: rgb(126, 74, 7);
+            padding: 30px;
+        }
+        a {color: white;
+            margin: 20px; 
+            text-decoration: none;
+            font-size: 20px;
+        }
+        h1 {font-family: 'Times New Roman', Times, serif;
+    }
+        header {background-color: burlywood;
+                padding: 20px;
+
+        }
+        body {background-color:rgb(243, 234, 217);
+        }
+        </style>
+    <header>
+        <h1 style="text-align: center;">Hidup itu sederhana, kitalah yang membuatnya rumit</h1>
+        <h1 style="text-align: center;">-Confusius</h1>
+    </header>
+    <body>
+        <h1 style="text-align: center;">Besaran dan Satuan</h1>
+        <h1>Besaran</h1>
+        <h3>Apa itu besaran?</h3>
+        <p>Besaran adalah sesuatu yang dapat diukur dan dinyatakan dalam angka serta satuan. Besaran 
+            dibagi menjadi dua yakni Besaran pokok dan Besaran Turunan. </p>
+        <h3>Besaran Pokok</h3>
+        <p> Besaran Pokok adalah besaran yang tidak diturunkan dari besaran lain namun dapat menurunkan 
+            besaran lain serta diakui secara internasional. Ada tujuah besaran pokok yakni: 
+        </p>
+        <li> Panjang (meter)</li>
+        <p>Adalah besaran yang digunakan untuk mengukur panjang tempat atau benda dengan satuan meter. 
+            Alat ukurnya adalah mistar, jangka sorong dan banyak lagi.</p>
+        <li> Massa (kilogram)</li>
+        <p>Adalah besaran yang digunakan untuk mengukur massa suatu benda dengan satuan kilogram. Alat 
+            ukurnya adalah neraca.</p>
+        <li> Waktu (second)</li>
+        <p>Adalah besaran yang digunakan untuk mengukur waktu dengan satuan second. Alat ukurnya adalah 
+            stoptwatch.</p>
+        <li> Arus listrik (ampere)</li>
+        <p>Adalah besaran yang digunakan untuk mengukur arus listrik dengan satuan ampere. Alat ukurnya 
+            adalah amperemeter.</p>
+        <li> Suhu (kelvin)</li>
+        <p>Adalah besaran yang digunakan untuk mengukur suhu dengan satuan kelvin. Alat ukurnya adalah 
+            termometer.</p>
+        <li> Jumlah zat (mol)</li>
+        <p>Adalah besaran yang digunakan untuk mengukur jumlah zat dengan satuan mol.</p>
+        <li> Intensitas cahaya (candela)</li>
+        <p>Adalah besaran yang digunakan untuk mengukur intensitas cahaya dengan satu
+            satuan candela. Alat ukurnya adalah fotometer.</p>
+        <h1>Besaran Turunan</h1>
+        <h3>Besaran turunan adalah hasil penurunan atau pengabungan besaran pokok.Berikut ini beberapa
+            conth besaran turunan:</h3>
+        <li> Luas (m2)</li>
+        <p>Adalah besaran yang digunakan untuk mengukur luas suatu bidang dengan satuan m2 </p>
+        <li>Gaya (Newton)</li>
+        <p>Adalah besaran yang digunakan untuk menghitung gaya yang dialami suatu benda atau gaya gravitasi.</p>
+        <li>Volume (m3)</li>
+        <p>Adalah besaran yang digunakan untuk mengukur volume suatu benda dengan satuan m3</p>
+        <li>Kecepatan (m/s)</li>
+        <p>Adalah besaran yang digunakan untuk mengukur kecepatan suatu benda dengan satuan m/s</p>
+        <li>Percepatan (m/s2)</li>
+        <p>Adalah besaran yang digunakan untuk mengukur percepatan suatu benda dengan satuan m/s2</p>
+        <li>Tekanan (Pascal)</li>
+        <p>Adalah besaran yang digunakan untuk mengukur tekanan suatu benda dengan satuan Pascal</p>
+        <li>Usaha (Joule)</li>
+        <p>Adalah besaran yang digunakan untuk mengukur usaha suatu benda dengan satuan Joule</p>
+    </body>
+    <body>
+        <h1>Satuan</h1>
+        <p>Satuan adalah pembanding, skala atau acuan standar yang digunakan untuk mengukur hasil Pengukuran
+            atau besaran secara tepat. Contohnya satuan panjang adalah meter, satuan massa adalah kilogram dan banyak lagi.
+            satuan dibagi menjadi dua yakni satuan baku dan tidak baku. 
+        <p>
+        <h2>Satuan Baku</h2>
+        <p>Satuan baku adalah satuan yang sudah diakui secara internasional dan digunakan sebagai standar untuk mengukur besaran. 
+            Contohnya satuan panjang adalah meter, satuan massa adalah kilogram dan banyak lagi.</p>
+        <h2>Satuan Tidak Baku</h2>
+        <p>Satuan tidak baku adalah satuan yang tidak diakui secara internasional dan digunakan secara tidak resmi untuk mengukur besaran. 
+            Contohnya Depa, Jengkal langkah dan banyak lagi.</p>
+    </body>
+    <style>
+        h1 {font-family: 'Times New Roman'; 
+            font-size: 40px;
+    }
+         h3 {font-family: 'Times New Roman';
+        font-size: 30px;}
+        li {font-size: 30px;
+            font-family: 'Times New Roman';
+            font-style: bold;
+        }
+        header {background-color: burlywood;
+                padding: 20px;
+        }
+        p {font-size: 30px;
+            font-family: 'Times New Roman';
+        }
+        body {background-color:rgb(243, 234, 217);
+        }
+        </style>
+    <body>
+        <h4 style="text-align: center;">Ditulis oleh Rafka Ardian Saputra. Pelajar IPA</h4>
+    </body>
+

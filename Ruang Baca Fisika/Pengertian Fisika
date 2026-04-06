@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="utf-8">
+        <title>Pengertian Fisika x Pelajar IPA </title>
+    <head>
+        <nav>
+        <a href="beranda">Beranda</a>
+        <a href="Event">Event</a>
+        <a href="#">Pertempuran</a>
+        <a href="Pepustakaan">Perpustakaan</a>
+        <a href="Toko">Toko</a>
+        <a href="Tentang Kami">Tentang kami</a>
+        <div class="logo">
+        <img src="PelajarIpaFoto/harimau kece aseekkkk.png" alt="Harimau Kece" width="70px">
+        </div>
+    </nav>
+    <style>
+        nav {background-color: rgb(126, 74, 7);
+            padding: 30px;
+        }
+        a {color: white;
+            margin: 20px; 
+            text-decoration: none;
+            font-size: 20px;}
+          .logo {float: right;
+                margin-top: -22px;}
+        header {background-color: burlywood ;
+                padding: 20px;}
+        body {background-color:wheat;}
+    </style>
+    <header>
+        <h1 style="text-align: center;">Pengertian Fisika, Sejarah serta kegunaannya di kehidupan sehari-hari</h1>
+    </header>
+    <body>
+        <h2 style="text-align: center;">"Belajar fisika itu seperti naik roller coaster, menegangkan tapi menyenangkan"</h2>
+        <h1>Pendahuluan</h1>
+        <p>Apa itu Fisika? Fisika mungkin bagi teman-teman itu rumus, pusing dan hitung-hitungan. Eh tapi pernyataan 
+            tersebut memang tidak salah tapi itu tidak mewakili tentang definisi fisika. Ayo teruskan baca dan biarkan 
+            Sobat IPA berpetualang ke dalam Dunia Fisika yang penuh keajaiban
+        </p>
+        <h1>Pengertian</h1>
+        <p>Fisika adalah sebuah cabang dari ilmu pengetahuan yang mempelajari tentang gejala serta fenomena 
+            yang terjadi pada benda-benda dan lingkungan sekitar, seperti mengapa kabel memanjang pada siang hari serta
+            menyusut di malam hari. Kalau menurut Kamus Besar Bahasa Indonesia atau KBBI, Fisika adalah ilmu yang mempelajari 
+            energi dan sebagainya. nah kalau menurut para ilmuan semisal Efrizon Umar, Fisika adalah ilmu yang dapat digunakan
+            untuk mengembangkan dan mempelajari cabang ilmu lainnya atau disimpulkan fisika adalah dasar dari semua ilmu 
+            pengetahuan. Kerenkan
+        </p>
+        <h1>Sejarah Fisika</h1>
+        <p>Singkatnya, sejarah Fisika dimulai sejak era Yunani kuno lewat filsuf seperti Thales, Aristoteles dan 
+            Pythagoras dengan penjelasannya terhadap prinsip optika, astronomi dan mekanika. Alasan para filsuf dalam memulai 
+            perkembangan ilmu fisika adalah sifat mereka yang menolak penjelasan jika peristiwa alam terjadi secara alami atau 
+            karena faktor religius dan supranatural. Pada zaman itu pula, pengetahuan mengenai bumi itu bulat telah dianggap 
+            ada bahkan dianggap biasa. Hukum gaya apung atau prinsip Archimedes yang berasal pada masa ini yang ditemukan oleh Archimedes.
+        </p>
+        <p>
+            Perkembangan fisika juga dikontribusi oleh Shen Kuo dari Tiongkok pada abad ke-4 SM dengan dimulainya studi tentang magnetisme 
+            serta pendeskripsian kompas jarum magnet dan kamera obscura dalam bidang optika. Di India, Maharisi Kanada menurut filsafat India
+            dianggap sebagai orang pertama yang mengambarkan teori atomisme pada tahun 200 SM. Selain itu, Pakuda Kaccayana pada abad ke-6 SM 
+            juga mengemukakan gagasan terkait atom. 
+        </p>
+        <p>
+            Di abad ke-7 hingga 11, kemajuan terjadi di dunia islam dikarenakan banyaknya karya dari India, Yunani dan lain sebagainya 
+            diterjmahkan dalam bahasa arab. Kontribusi Ibnu al-Haytam yang dikenal sebagai bapak optika modern yang menyatakan jika cahaya
+            merambat ke mata dalam bentuk sinar itu dari berbagai titik. Ibnu sinna atau dikenal Aveccena memiliki peran penting 
+            dalam pengembangan fisika, kedokteran, filsafat serta optika melalui teori geraknya pada kitab penyembuhan yang diterbitkan pada tahun 1020, 
+            di buku tersebut ibnu sina berpendapat jika pelempar memberikan dorongan kepada proyektil. 
+        </p>
+        <p>
+            Di Eropa pada abad ke-16 dan 17 terjadi revolusi ilmiah akibat ketidakpuasan dari filosofis lama. Beberapa ilmuan selama 
+            revolusi ilmiah adalah Nicolaus Copernicus, Galileo Galilei, Johanes Kepler dan banyak lagi. Isaac Newton adalah salah satu 
+            penemu di masa revolusi ilmiah, dia adalah penemu dari hukum gravitasi yang kini disebut sebagai 3 hukum newton. 
+            Penulisan prinscipia Mathematica pada 1687 oleh Isaac Newton menjadi awal dari periode modern Mekanika serta Astronomi.  
+        </p>
+        <p>
+            Pada abad ke-18, prinsip-prinsip yang dikemukakan Newton dikembangkan oleh ilmuan sesudahnya dengan pendekatan penerapan diferensial
+            serta teknik analitis demi menapatkan fenomena yang lebih luas seperti Getaran, listik, panas dan fluida. Pada abad ini perkembangan 
+            terhadap Mekanika serta termodinamika dan listrik statis berkembang pesat. Listrik statis yang ditemukan oleh Augustin De Coloumb yang
+            kini disebut hukum Coloumb lalu, Antonie Lavosier yang merumuskan hukum kekekalan massa serta masih banyak lagi ilmuan pada abad ke-18 ini.
+        </p>
+        <p>
+            Pada abad ke-19, Alesandro Volta menemukan baterai listrik atau dikenal sebagai tumpukan volta yang menjadi perangkat atau benda pertama yang
+            dapat menghasilkan arus listrik yang stabil. Pada 1831, Michael Faraday berhasil menemukan hukum induksi elektromagnetik. Di masa ini banyak sekali 
+            penemuan-penemuan terutama di bidang Mekanika, optika dan termodinamika serta banyak lagi. 
+        </p>
+            Pada abad ke-20, Fisika telah berkembang dan maju dengan pesat. Marie Currie adalah ilmuan wanita yang mendapatkan hadiah nobel 
+            sebanyak dua kali di bidang Fisika serta Kimia sebagai bentuk penemuannya pada Fisika. Beberapa fisikawan terkenal pada zaman ini adalah Hendrick 
+            Lorentz, Emil Cohn dan banyak lagi. 
+    </body>
+    <body>
+        <h1>kegunaan fisika pada kehidupan sehari-hari</h1>
+        <p>Seperti yang dibahas, fisika adalah ilmu yang mempelajari tentang gejala serta fenomena alam tapi tahukah Kamu 
+        jika fisika itu sudah menjadi bagian dalam kehidupan sehari-hari. Berikut contoh yang Pelajar IPA buat untuk Sobat IPA serta sobat Fisika;
+        </p>
+        <pre>
+1. Merebus air 
+2. Es batu mencair
+3. Air menguap
+4. Arus ionik pada layar ponsel
+5. Kipas angin 
+6. Lampu 
+7. ketika membuka pintu maupun menutup pintu
+8. Pembuatan garam 
+9. Kabel listrik di jalanan 
+10.Menggunakan Cermin
+11.Menggunakan kamera
+12.Berjalan 
+13.Rem pada sepeda
+14.Melempar benda ke atas 
+15.
+        </pre>
+        <h1>Penutup</h1>
+        <p>Gimana nih, sudah paham mengenai pengertian Fisika, sejarah serta contoh dalam kehidupan sehari-hari. Selamat belajar dan semangat terus 
+            untuk Sobat IPA. Salam dari Pelajar IPA.🔥🔥🔥
+              </p>
+    </body>
+    <style>
+        pre {font-size: 25px;}
+        p {font-size: 25px;}
+    </style>
+    </html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FISIKA LEVEL 1 By Pelajar IPA</title>
+    </head>
+    <body>
+        <section class="pembukaan">
+            <h2>BELAJAR FISIKA LEVEL 1</h2>
+            <h3>Pengenalan IPA</h3>
+        </section>
+            <div class="papantulis" style="display: block;">
+                <section class="papan">
+                    <h2>
+                        APA ITU IPA?
+                    </h2>
+                    <h3> 
+                        IPA adalah singkatan dari Ilmu Pengetahuan Alam, yang mempelajari berbagai fenomena alam dari
+                        tumbuhan, benda hidup atau mati dan lainnya. IPA memiliki 3 cabang utama yakni Biologi, Fisika, Astronomi
+                        dan Kimia Fisika mempelajari tentang gejala alam lewat eksperimen, pengamatan dan analisis (perhitungan). 
+                        Biologi adalah Ilmu yang mempelajari tentang makhluk hidup, mulai dari tumbuhan, hewan, manusia dan lainnya. 
+                        Kimia adalah Ilmu yang mempelajari tentang zat, struktur, sifat dan perubahan zat. Astronami adalah Ilmu yang mempelajari 
+                        tentang benda-benda langit seperti bintang, planet, galaksi dan lainnya.
+                    </h3>
+                    <h2>
+                        KENAPA HARUS BELAJAR IPA?
+                    </h2>
+                    <h3>
+                        Karena dengan belajar IPA, kita dapat memahami dari berbagai fenomena sehari-hari seperti kenapa 
+                        awan menghasilkan hujan, kenapa ada pelangi dan banyak lagi. Selain itu dengan belajar IPA akan membuat 
+                        kita sadar akan kelestarian alam serta dapat memanfaatkan sumber daya alam dengan baik juga mengembangkan 
+                        teknologi yang bermanfaat bagi kehidupan manusia.
+                    </h3>
+                    <h3>
+                        IPA tidak hanya soal kumpulan rumus dan teori, tapi juga tentang bagaimana kita bisa memahami dunia di sekitar
+                        kita dengan cara yang menyenangkan dan menarik. Hakikat IPA menyatakan jika IPA bukan hanya kumpulan pengetahuan melainkan 
+                        juga sebuah proses cara menemukan sesuatu produk dan sikap akan rasa ingin tahu. Gimana Tertarik?
+                    </h3>
+                </section>
+                <section class="papan2"> 
+                    <h3 style="text-align: center;">
+                        "Fisika mengajari kita tentang gerak, Biologi mengajari kita untuk tumbuh dan 
+                        Kimia mengajari kita tentang Perubahan. Jadi kita harus belajar untuk terus bergerak, tumbuh 
+                        dan membuat perubahan"
+                    </h3>
+                    <h1 style="text-align: center;">
+                        Latihan Soal!!!
+                    </h1>
+                    <form id="Soal">
+                        <div class="Level1">
+                            <h2>1. Apa kepanjangan dari IPA?</h2>
+                            <input type="radio" name="q1" value="a"> Ilmu Pengetahuan Alam<br>
+                            <input type="radio" name="q1" value="b">Ilmu Pengetahuan Asekk<br>
+                            <input type="radio" name="q1" value="c">Ini Papa Aku!<br>
+                        </div>
+                        <div class="Level1">
+                            <h2>2. Berikut yang merupakan cabang utama IPA adalah?</h2>
+                            <input type="radio" name="q2" value="a"> Fisika, Biologi, Ekonomi<br>
+                            <input type="radio" name="q2" value="b"> Fisika, Biologi, Kimia<br>
+                            <input type="radio" name="q2" value="c">Fisika, Kimia, Politik<br>
+                        </div>        
+                        <div class="Level1">
+                            <h2>3. Fisika adalah?</h2>
+                            <input type="radio" name="q3" value="a"> Ilmu yang mempelajari tentang zat, struktur, sifat dan perubahan zat<br>
+                            <input type="radio" name="q3" value="b"> Ilmu yang mempelajari tentang gejala alam lewat eksperimen, pengamatan dan analisis (perhitungan)<br>
+                            <input type="radio" name="q3" value="c"> Ilmu tentang cara mengolah makanan mentah menjadi makanan matang atau setengah jadi<br>
+                        </div>
+                        <div class="Level1">
+                            <h2>4. Ilmu yang mempelajari tentang zat, struktur, sifat dan perubahan zat adalah?</h2>
+                            <input type="radio" name="q4" value="a">Biologi<br>
+                            <input type="radio" name="q4" value="b">Geografi<br>
+                            <input type="radio" name="q4" value="c">Kimia<br>
+                         </div>
+                         <div class="Level1">
+                            <h2>5. Astronomi adalah ilmu yang mempelajari tentang benda luar angkasa</h2>
+                            <input type="radio" name="q5" value="a">Benar<br>
+                            <input type="radio" name="q5" value="b">Salah<br>
+                         </div>
+                         <button type="button" onclick="hitungSkor()">Submit</button>
+                    </form>
+                    <div id="result"></div>
+                    <div class="PapanLaut" style="display: flex; justify-content: center; margin-top: 15px;">
+                        <div class="PapanBiru">
+                            <a href="../index.html">Kembali ke Menu Utama</a>
+                        </div>
+                            <div class="PapanBiru">
+                                <a href="../Materi.html">Ruang Materi</a>
+                            </div>
+                        <div class="PapanBiru">
+                            <a href="level2.html">Lanjut ke Level 2</a>
+                        </div>
+                    </div>
+                    
+                </section>
+            </div>
+    </body>
+    <style>
+        .PapanBiru {
+            background: rgb(60, 121, 236);
+            padding: 10px;
+            margin: 10px;
+            width: 50vw;
+            border: 1px black solid;
+            color: white;
+            height: 8vh;
+            font-size: larger;
+            text-align: center;
+        }
+        .PapanBiru a {
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+        }
+        .PapanBiru:hover {
+            background: rgb(55, 158, 243);
+            transform: scale(1.1);
+        }
+        .level1 {
+            margin: 10px;
+        }
+        *{ 
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        p {
+            font-size: 10;
+        }
+        nav {
+            background: rgb(21, 77, 230);
+            text-align: left;
+            padding: 2px;
+            border: 1px black solid;
+        }
+        nav a{
+            text-decoration: none;
+            font-weight: bold;
+            color: aliceblue;
+        }
+        .pembukaan {
+            background: rgb(108, 214, 221);
+            text-align: center;
+            padding: 20px 22px;
+            border: 1px black solid;  
+        }
+        .papan{
+            background: #5a9ce7;
+            margin-top: 15px;
+            text-align: left;
+            padding: 25px;
+            border: 1px black solid;
+        }
+        .papan p{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5rem;
+        }
+        .papan2{
+            background:turquoise;
+            text-align: left;
+            padding: 25px;
+            border: 1px black solid;
+            margin-top: 15px;
+        }
+        .papan2 p{
+            font-size: 0.9rem;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</html>
+<script>
+     function hitungSkor() {
+    let score = 0;
+    let totalQuestions = 5;
+    
+    // Jawaban benar
+    let a1 = "a"; // Ilmu Pengetahuan Alam (IPA)
+    let a2 = "b"; // Fisika, Biologi, Kimia
+    let a3 = "b"; // Ilmu yang mempelajari tentang gejala alam lewat eksperimen, pengamatan dan analisis (perhitungan)
+    let a4 = "c"; // Kimia
+    let a5 = "a"; // Benar
+    
+    let form = document.forms["Soal"];
+    
+    if (form["q1"].value === a1) score++;
+    if (form["q2"].value === a2) score++;
+    if (form["q3"].value === a3) score++;
+    if (form["q4"].value === a4) score++;
+    if (form["q5"].value === a5) score++;
+    
+    document.getElementById("result").innerHTML = "<h3>Skor Anda: " + score + " / " + totalQuestions + ", KERENNN!!</h3>";
+}
+
+</script>

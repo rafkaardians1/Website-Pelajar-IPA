@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+    <html lang="id">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Pelajar IPA</title>
+        </head>
+        <style>
+    *{
+        font-family: Arial, Helvetica, sans-serif
+    }
+    p {
+        font-size: 10;
+    }
+    body{
+        margin:0;
+        font-family:Arial, sans-serif;
+        background:#f4f6fb;
+    }
+    nav{
+        background:#aa6ff8;
+        padding:15px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        border: 2px black solid;
+    }
+    .menu{
+        display:flex;
+        gap:30px;
+    }
+    .menu a{
+        color:white;
+        text-decoration:none;
+        font-weight:bold;   
+    }
+    .hamburger{
+        display:none;
+        font-size:25px;
+        background:none;
+        border:none;
+        color:white;
+        cursor:pointer;
+    }
+    .pembukaan{
+        text-align:center;
+        padding:60px 20px;
+        background:#66b5fa;
+        color:white;
+        border: 1px black solid;
+    }
+    .pembukaan h1{
+        font-size:40px;
+        margin-bottom:10px;
+    }
+    .menu a{
+        color:white;
+        text-decoration:none;
+        font-weight:bold;   
+        font-size: 20px;
+    }
+    .pembukaan h1 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+    }
+    .pembukaan p {
+        font-family: Arial, Helvetica, sans-serif;   
+        font-size: 20px;
+    }
+    .Kotak1 {
+        width: 50vw;
+        padding: 15px;
+        background: #409ef0;
+        margin-top: 10px;
+        border: 2px black solid;
+        margin: 5px;
+    }
+    .Kotak1:hover {
+        background: #066ac2;
+        transform: scale(1.1);
+        color: white;
+    }
+    .Kotak2 {
+        width: 50vw;
+        padding: 15px;
+        background-color: #aa6ff8;
+        margin-top: 10px;
+        border: 2px black solid;
+        margin: 5px;
+    }
+    .Kotak2:hover {
+        background-color: #7318eb;
+        transform: scale(1.1);
+        color: white;
+    }
+    .Kotak3 {
+        width: 50vw;
+        padding: 15px;
+        background-color: #4094dd;
+        margin-top: 10px;
+        border: 2px black solid;
+        margin: 5px;
+    }
+    .Kotak3:hover {
+        background-color: #066ac2;
+        transform: scale(1.1);
+        color: white;
+    }
+   @media (max-width:700px){
+        nav{
+            flex-direction:column;
+            align-items:center;
+            justify-content: space-between;
+        }
+        .pembukaan h1{
+            font-size:28px;
+        }
+        .hamburger{
+            display:block;
+            justify-content: left;
+    }
+        .menu{
+            display:none;
+            flex-direction:column;
+            position:absolute;
+            top:60px;
+            left:0;
+            width:100%;
+            background:#409ef0;
+            padding:20px;
+            border: 1px black solid;
+        }
+        .menu.show{
+            display:flex;
+        }
+        .Text{
+            display:flex;
+            align-items:center;
+            gap:10px;
+        }
+    }
+        </style>
+    <body>
+        <nav>
+            <div class="Text">
+                <button class="hamburger" onclick="toggleMenu()" style="text-align: left;">
+                    ☰
+                    <span class="logo-text">PELAJAR IPA</span>
+                </button>
+            </div>
+            <div class="menu" id="menu">
+                <a href="index.html">Home</a>
+                <a href="Materi.html">Materi</a>
+                <a href="Perang.html">Perang</a>
+                <a href="Tentang kami.html">Info</a>
+            </div>
+        </nav>
+        <section class="pembukaan">
+                <h1>Selamat datang di Ruang Materi</h1>
+                <p>Belajar materi IPA kini jadi lebih seru!</p>
+        </section>
+        <div class="Info" style="display: flex; justify-content: left; margin: 10px;">
+            <!-- Kotak informasi ke 1-->
+                    <div class="Kotak1">
+                        <!-- Ruang Materi -->
+                            <h3 style="font-size: 20px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;text-align: center;">
+                                Ruang Materi</h3>
+                            <p style="font-size: 1.2rem;text-align: center;">
+                               Asah pengetahuanmu dengan belajar bareng Pelajar IPA</p>
+                    </div>
+            <!-- Kotak Informasi ke 2-->
+                <!-- Info Perang -->
+                    <div class="Kotak2">
+                        <h3 style="font-size: 20px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;text-align: center;">
+                            Perang</h3>
+                        <p style="font-size: 1.2rem;text-align: center;">Latih kekuatanmu dan bersiap melawan event bulanan</p>
+                    </div>
+            <!-- Kotak Informasi ke 3-->
+                <!-- Tentang Kami -->
+                    <div class="Kotak3">
+                        <h3 style="font-size: 20px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;text-align: center;">
+                            Tentang Kami</h3>
+                        <p style="font-size: 1.2rem;text-align: center;">Ayo kenalan dengan Admin Pelajar IPA</p>
+                    </div>
+                </div>
+            <div class="Daftar">
+                
+            </div>
+    </body>
+    <script>
+        function toggleMenu(){
+        let menu = document.getElementById("menu");
+        menu.classList.toggle("show");
+        }
+    </script>
+</html>
+    
