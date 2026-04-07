@@ -120,6 +120,62 @@
         font-size: 20px;
         font-family: Arial, Helvetica, sans-serif;
     }
+    .Daftar {
+        background-color: azure;
+        padding: 5px;
+        border: 3px rgb(54, 54, 56) solid;
+        margin: 5px;
+        cursor: pointer;
+    }
+     /* Gaya dasar untuk kotak */
+  .Box {
+    border: 3px solid #000000;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px;
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, #013caa, #4888bd, #0945b4);
+  }
+
+  .Box h2 {
+    font-weight: bold;
+    margin-top: 0;
+  }
+
+  /* Gaya untuk pertanyaan yang dapat diklik */
+  details {
+    border-bottom: 1px solid #000000;
+    padding: 10px 0;
+  }
+
+  summary {
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none; /* Menghilangkan panah default */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+
+  /* Ikon panah kustom */
+  summary::after {
+    content: '▼';
+    font-size: 12px;
+    color: #ffffff;
+  }
+
+  details[open] summary::after {
+    content: '▲';
+  }
+
+  /* Gaya untuk jawaban */
+  .answer {
+    padding: 10px 0;
+    color:white;
+    line-height: 1.5;
+  }
    @media (max-width:680px){
         nav{
             flex-direction:column;
@@ -179,6 +235,9 @@
         .pembukaan h1{
             font-size: 24px;
         }
+        .daftar.tampilkan {
+            display: block;
+        }
     }
         </style>
     <body>
@@ -232,10 +291,47 @@
                     </div>
                 </div>
         </section>
-            <div class="Daftar">
-                
+    <section class="Box">
+        <details class="Box1">
+            <summary>
+                <h3>Apa Itu Pelajar IPA?</h3>
+            </summary>
+            <div class="answer">
+                    <p>Halo Sobat IPA</p>
+                    <p>Pelajar IPA adalah sebuah komunitas umum yang terbuka untuk 
+                        siapa saja selama memiliki minat dan niat dalam mempelajari Ilmu 
+                        Pengetahuan Alam. 
             </div>
-    </body>
+        </details>
+        <details class="Box2">
+            <summary>
+                <h3>Apa itu Ruang Materi?</h3>
+            </summary>
+            <div class="answer">
+                <p>Halo Sobat IPA</p>
+                <p>Ruang Materi adalah tempat para pejuang berlatih materi IPA. Ruang Materi terdiri dari beberapa level 
+                    yang dapat diakses tanpa harus membuka level sebelumnya. Semakin tinggi level maka semakin tinggi pula pembahasannya.
+                </p>
+                <a href="Materi.html"><p>Ayo Belajar sekarang!!!</p></a>
+            </div>
+        </details>
+        <details>
+            <summary>
+                <h3>Apa itu Medan Perang?</h3>
+            </summary>
+        <div class="answer">
+            <p>Halo sobat IPA</p>
+            <p>Medan Perang adalah tempat latihan soal serta pertempuran event bulanan. Disini 
+                Pertempuran atau latihan soal spesial event bulanan diadakan dan dijamin membuat Sobat 
+                IPA jedoorrr. Selain pertempuran event juga ada pertempuran biasa bagi sobat IPA yang 
+                ingin latihan biasa dulu. 
+            </p>
+            <a href="Perang.html"><p>Mulai Perang sekarang!!!</p></a>
+        </div>
+        </details>
+    </section>
+    <
+</body>
     <script>
         function toggleMenu(){
         let menu = document.getElementById("menu");
