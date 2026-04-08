@@ -187,6 +187,7 @@
     border: 3px rgb(2, 4, 110) solid;
     margin: 5px;
     width: 36vw;
+    text-align: center;
   }
   .img {
     width: 36vw;
@@ -199,6 +200,17 @@
   .gambar2 {
     display: block;
   }
+   .tombol {
+    padding: 10px;
+    margin: 15px;
+    background-image: linear-gradient(to right,#0c8a9b, #3a7591);
+    justify-content: center;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border: 3px rgb(2, 4, 110) solid;
+}
    @media (max-width:680px){
         nav{
             flex-direction:column;
@@ -267,12 +279,24 @@
             border: 3px rgb(2, 4, 110) solid;
             margin: 5px;
             width: 36vw;
+            text-align: none;
         }
         .gambar1{
             display: block;
         }
         .gambar2{
             display: none;
+        }
+        .tombol {
+            padding: 10px;
+            margin: 15px;
+            background-image: linear-gradient(to right,#0c8a9b, #3a7591);
+            justify-content: center;
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            color: white;
+            border: 3px rgb(2, 4, 110) solid;
         }
     }
         </style>
@@ -367,18 +391,36 @@
         </details>
     </section>
     <!-- Papan Acara -->
-    <section class="Events" style="display: flex; justify-content: left;">
+    <section class="Events" style="display: flex; justify-content: center; flex-wrap: wrap;">
         <div class="Event1">
-            <h3 style="text-align: center;">Pertempuran Fisika</h3>
+            <h3 style="text-align: center;margin: 10px;">Pertempuran Suku</h3>
                 <img class="gambar1" src="PelajarIpaFoto.html/Event kemerdekaan.png" alt="Event Kemerdekaan" style="width: 34vw; height: 41vh; margin: 2px; border: #013caa solid 3px;">
                 <img class="gambar2" src="PelajarIpaFoto.html/Event Kemerdekaan.png" alt="Event Kemerdekaan" style="width: 34vw; height: 70vh; margin: 20px; border: #013caa solid 3px;">
-            <a href="Materi.html"><button style="justify-content: center; margin-left: 30px;padding: 10px;margin-top: 10px;">Gabung Perang!!!</button></a>
+            <a href="Materi.html" class="gambar1"><div class="tombol" style="display: inline-block;">Gabung Perang!!!</div></a>
+            <a href="Materi.html" class="gambar2"><div class="tombol" style="display: inline-block;">Gabung Perang!!!</div></a>
         </div>
         <div class="Event1">
-            <h3 style="text-align: center;">Pertempuran IPA</h3>
+            <h3 style="text-align: center; margin: 10px;">Pertempuran Desa</h3>
             <img class="gambar1" src="PelajarIpaFoto.html/Event Kemerdekaan2.png" alt="Event Desa IPA" style="width: 34vw; height: 41vh; margin: 2px; border: #013caa solid 3px;">
             <img class="gambar2" src="PelajarIpaFoto.html/Event Kemerdekaan2.png" alt="Event Desa IPA" style="width: 34vw; height: 70vh; margin: 20px; border: #013caa solid 3px;">
-            <a href="Materi.html"><button style="justify-content: center; margin-left: 30px;padding: 10px;margin-top: 10px;">Gabung Perang!!!</button></a>
+            <a href="Materi.html" class="gambar1"><div class="tombol" style="display: inline-block;">Gabung Perang!!!</div></a>
+            <a href="Materi.html" class="gambar2"><div class="tombol" style="display: inline-block;">Gabung Perang!!!</div></a>
+        </div>
+    </section>
+    <section class="Events" style="display: flex; justify-content: center;flex-wrap: wrap;">
+        <div class="Event1">
+            <h3 style="text-align: center; margin: 10px;">Pertempuran Istana</h3>
+            <img class="gambar1" src="PelajarIpaFoto.html/Event Kemerdekaan3.png" alt="Event Istana IPA" style="width: 34vw; height: 41vh; margin: 2px; border: #013caa solid 3px;">
+            <img class="gambar2" src="PelajarIpaFoto.html/Event Kemerdekaan3.png" alt="Event Istana IPA" style="width: 34vw; height: 70vh; margin: 20px; border: #013caa solid 3px;">
+            <a href="Materi.html" class="gambar1"><div class="tombol" style="display: inline-block;">Gabung Perang!!!</div></a>
+            <a href="Materi.html" class="gambar2"><div class="tombol" style="display: inline-block;">Gabung Perang!!!</div></a>
+        </div>
+        <div class="Event1">
+            <h3 style="text-align: center;margin: 10px;">Pertempuran Aliansi</h3>
+            <img class="gambar1" src="PelajarIpaFoto.html/Event Kemerdekaan 4.png" alt="Event Aliansi IPA" style="width: 34vw; height: 41vh; margin: 2px; border: #013caa solid 3px;">
+            <img class="gambar2" src="PelajarIpaFoto.html/Event Kemerdekaan 4.png" alt="Event Aliansi IPA" style="width: 34vw; height: 70vh; margin: 20px; border: #013caa solid 3px;">
+            <a href="Materi.html" class="gambar1"><div class="tombol" style="display: inline-block;">Gabung Perang!!!</div></a>
+            <a href="Materi.html" class="gambar2"><div class="tombol" style="display: inline-block;">Gabung Perang!!!</div></a>
         </div>
     </section>
 </body>
