@@ -1,11 +1,92 @@
 <!DOCTYPE html>
 <html lang="id">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Besaran Fisika</title>
-    </head>
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topbar & Sidebar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-    </body>
+    <!-- Topbar -->
+    <div class="topbar">
+        <img src="PelajarIpaFoto.html/harimau kece aseekkkk.png" alt="Milik Dewan IPA" class="Logo">
+        <div class="menu">Profile</div>
+    </div>
+
+    <!-- Container Utama -->
+    <div class="main-container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <a href="#">Beranda</a>
+            <a href="#">Materi</a>
+            <a href="#">Perang</a>
+            <a href="#">Info</a>
+        </div>
+
+        <!-- Konten -->
+        <div class="content">
+            <h1>Konten Utama</h1>
+            <p>Selamat datang di dashboard.</p>
+        </div>
+    </div>
+
+</body>
+<style>
+   body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.Logo {
+    width: 40px;
+    height: 40px;
+}
+/* Topbar Styling */
+.topbar {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Container untuk Sidebar & Konten */
+.main-container {
+    display: flex;
+    margin-top: 60px; /* Jarak agar tidak tertutup topbar */
+}
+
+/* Sidebar Styling */
+.sidebar {
+    background-color: #f4f4f4;
+    width: 12vw;
+    height: calc(100vh - 60px); /* Full height kurangi topbar */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+}
+
+.sidebar a:hover {
+    background-color: #ddd;
+}
+
+/* Content Styling */
+.content {
+    flex: 1; /* Sisa ruang */
+    padding: 20px;
+}
+</style>
 </html>
