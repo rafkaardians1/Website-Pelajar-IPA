@@ -53,41 +53,54 @@
         font-size:40px;
         margin-bottom:10px;
     }
-    .PapanLevel {
-        background: #aa6ff8;
-        margin-top: 10px;
-        padding:60px 30px;
-        border-radius: 15px;
-        border: 2px black solid;
-    }
-    .PapanLevel a{
-        text-decoration: none;
-    }
-    .level{  
-        padding:25px;
-        margin: 20px;
-        background: #409ef0;
-        width: 8vw;
-        color: rgb(236, 238, 241);
-        font-size:18px;
-        border-radius:8px;
-        cursor:pointer;
-        text-align: center;
-        border: 1px black solid;
-    }
-    .level:hover{
-        transform: scale(1.2);
-    }
-    .levelatas {
-        display: flex;
-        flex-wrap: wrap;
-
-    }
     .logo-text{
             color:white;
             font-weight:bold;
             font-size:20px;
     }
+    /* Desain Jawaban*/
+    .Materi {
+    border: 3px solid #000000;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 15px;
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, #11e8f3,#18a1a1, #3b9499);
+    border-radius: 25px;
+  }
+  /* Gaya untuk pertanyaan yang dapat diklik */
+  details {
+    border-bottom: 1px solid #000000;
+    padding: 10px 0;
+  }
+  summary {
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none; /* Menghilangkan panah default */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+
+  /* Ikon panah kustom */
+  summary::after {
+    content: '▼';
+    font-size: 12px;
+    color: #ffffff;
+  }
+
+  details[open] summary::after {
+    content: '▲';
+  }
+
+  /* Gaya untuk jawaban */
+  .answer {
+    padding: 10px 0;
+    color:white;
+    line-height: 1.5;
+  }
 @media(max-width:700px){
         nav{
             flex-direction:column;
@@ -120,18 +133,6 @@
             align-items:center;
             gap:10px;
         }
-        .level{
-            padding:24px;
-            margin: 7px;
-            background: #409ef0;
-            width: 16vw;
-            color: rgb(245, 242, 237);
-            font-size:18px;
-            border-radius:8px;
-            cursor:pointer;
-            text-align: center;
-            border: 1px black solid;
-        }
     }
         </style>
     <body>
@@ -153,72 +154,47 @@
                 <h1>Selamat datang di Ruang Materi</h1>
                 <p>Belajar materi IPA kini jadi lebih seru!</p>
             </section>
-            <section class="PapanLevel">
-                <h1 style="text-align:center ;font-weight: bolder;margin-top: -30px;">
-                    BELAJAR FISIKA YUK!
-                </h1>
-                    <section class="levelatas">
-                        <a href="Level Fisika/level1.html">
-                            <div class="level">
-                                <h3>LEVEL 1 FISIKA</h3>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="level">
-                                <h3>LEVEL 2 FISIKA</h3>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="level">
-                                <h3>LEVEL 3 FISIKA</h3>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="level">
-                                <h3>LEVEL 4 FISIKA</h3>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="level">
-                                <h3>LEVEL 5 FISIKA</h3>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="level">
-                                <h3>LEVEL 6 FISIKA</h3>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="level">
-                                <h3>LEVEL 7 FISIKA</h3>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="level">
-                                <h3>LEVEL 8 FISIKA</h3>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="level">
-                                <h3>LEVEL 9 FISIKA</h3>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="level">
-                                <h3>LEVEL 10 FISIKA</h3>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="level">
-                                <h3>LEVEL 11 FISIKA</h3>
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="level">
-                                <h3>LEVEL 12 FISIKA</h3>
-                            </div>
-                        </a>
-                    </section>
+            <section class="Materi" style="display: block; justify-content: center;">
+                <details class="Box-Of-Materi-1" style="margin: 10px;">
+                    <summary>
+                        <h3>Bab 1 :Pengenalan IPA</h3>
+                    </summary>
+                        <div class="answer-of-Pelajar-IPA-materi" >
+                            <p> Halo Sobat IPA!!!</p>
+                            <p>Sudah siap belajar bab 1 : pengertian IPA?</p>
+                            <a href="Level Fisika/level1.html">Ayo Belajar!</a>
+                        </div>
+                </details>
+                <details class="Box-Of-Materi-2" style="margin: 10px;">
+                    <summary>
+                        <h3>Bab 2 : Fisika, Biologi dan Kimia</h3>
+                    </summary>
+                    <div class="answer-of-Pelajar-IPA-materi">
+                        <p> Halo Sobat IPA!!!</p>
+                        <p>Sudah siap belajar bab 2 : Fisika, Biologi dan Kimia?</p>
+                        <a href="Level Fisika/level2.html">Ayo Belajar!</a>
+                    </div>
+                </details>
+                <details class="Box-Of-Materi-3" style="margin: 10px;">
+                    <summary>
+                        <h3> Bab 3 : Besaran dan Satuan</h3>
+                    </summary>
+                    <div class="answer-of-Pelajar-IPA-materi">
+                        <p> Halo Sobat IPA!!!</p>
+                        <p>Sudah siap belajar bab 3 : Besaran dan Satuan?</p>
+                        <a href="Level Fisika/level3.html">Ayo Belajar!</a>
+                    </div>
+                </details>
+                <details class="Box-Of-Materi-4" style="margin: 10px;">
+                    <summary>
+                        <h3>Bab 4 : Klasifikasi Makhluk Hidup</h3>
+                    </summary>
+                    <div class="answer-of-Pelajar-IPA-materi">
+                        <p> Halo Sobat IPA!!!</p>
+                        <p>Sudah siap belajar bab 4 : Klasifikasi Makhluk Hidup?</p>
+                        <a href="Level Fisika/level4.html">Ayo Belajar!</a>
+                    </div>
+                </details>
             </section>
     </body>
     <script>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pelajar IPA</title>
+    </head>
+    <body>
+        <body class="Pelajar-IPA-Bunga">
+            <div class="Malam-Kebijaksanaan-Surgawi"></div>
+            <div class="Bunga-Surgawi-Pelajar-IPA">
+                <div class="Bunga Bunga-Surgawi-1">
+                    <div class="Daun-Keajaiban-Bunga-Surgawi-1">
+                        <div class="Kelopak-Pertama-Bunga-Keajaiban"></div>
+                        <div class="Kelopak-Kedua-Bunga-Keajaiban"></div>
+                        <div class="Kelopak-Ketiga-Bunga-Keajaiban"></div>
+                        <div class="Kelopak-Keempat-Bunga-Keajaiban"></div>
+                        <div class="Bunga-Besar-Bunga-Kebijaksanaan-Surgawi"></div>
+                        <!-- Cahaya Keajaiban -->
+                        <div class="Butiran-Cahaya-Keajaiban-Surgawi-Yang-Pertama"></div>
+                        <div class="Butiran-Cahaya-Keajaiban-Surgawi-Yang-Kedua"></div>
+                        <div class="Butiran-Cahaya-Keajaiban-Surgawi-Yang-Ketiga"></div>
+                        <div class="Butiran-Cahaya-Keajaiban-Surgawi-Yang-Keempat"></div>
+                        <div class="Butiran-Cahaya-Keajaiban-Surgawi-Yang-Kelima"></div>
+                        <div class="Butiran-Cahaya-Keajaiban-Surgawi-Yang-Keenam"></div>
+                        <div class="Butiran-Cahaya-Keajaiban-Surgawi-Yang-Ketujuh"></div>
+                        <div class="Butiran-Cahaya-Keajaiban-Surgawi-Yang-Kedelapan"></div>
+                        <div class="Butiran-Cahaya-Keajaiban-Surgawi-Yang-Kesembilan"></div>
+                    </div>
+                    <div class="Tangkai-Suci-Bunga-Surgawi">
+                        <div class="Daun-Keajaiban-Tangkai-Suci"></div>
+                        <div class="Daun-Keajaiban-Tangkai-Suci-2"></div>
+                        <div class="Daun-Keajaiban-Tangkai-Suci-3"></div>
+                        <div class="Daun-Keajaiban-Tangkai-Suci-4"></div>
+                        <div class="Daun-Keajaiban-Tangkai-Suci-5"></div>
+                        <div class="Daun-Keajaiban-Tangkai-Suci-6"></div>
+                    </div>
+                </div>
+                
+
+            </div>
+        </body>
+    </body>
+    <style>
+        *, 
+        *::before,
+        *::after {
+            padding: 0;
+            box-sizing: border-box;
+            margin: 0;    
+        }
+        :root {
+            --warna-hitam-surgawi:#000000;
+        }
+        body {
+            background-color: var(--warna-hitam-surgawi);
+            display: flex;
+            min-height: 100vh;
+            overflow: hidden;
+            perspective: 1000px;
+            align-items: flex-end;
+            justify-content: center;
+        }
+        .Malam-Kebijaksanaan-Surgawi {
+            position: absolute; /* Position:Fixed */
+            width: 100%;
+            height: 100%;
+            left: 50%;
+            top: 0;
+            background-image: 
+                radial-gradient(ellipse at top, transparent 0%, var(--warna-hitam-surgawi)), 
+                radial-gradient(ellipse at bottom, var(--warna-hitam-surgawi), rgba(145, 233, 255, 0.2)), 
+                repeating-linear-gradient(220deg, #000000 0px, #000000 19px, transparent 19px, transparent 22px), 
+                repeating-linear-gradient(189deg, #000000 0px, #000000 19px, transparent 19px, transparent 22px), 
+                repeating-linear-gradient(148deg, #000000 0px, #000000 19px, transparent 19px, transparent 22px),
+                linear-gradient(90deg, #4af0ed, #f1ebeb);
+            filter: blur(1.2vmin);
+            transform: translateX(-50.1%);
+        }
+        .Bunga-Surgawi-Pelajar-IPA {
+            position: relative;
+            transform: scale(1.0);
+        }
+        .Bunga {
+            position: absolute;
+            bottom: 10vmin;
+            --fl-speed: 1s;
+            z-index: 10;
+            transform-origin: bottom center;
+            background: none;
+        }
+        .Bunga-Surgawi-1 {
+           animation: moving-Bunga-1 4s linear infinite;
+        }
+    </style>
+</html>
