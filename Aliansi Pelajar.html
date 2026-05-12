@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PENGEMBANGAN</title>
+    </head> 
+
+    <body>
+
+<div class="topbar">
+  <span class="menu-btn" onclick="toggleSidebar()">☰</span>
+  <h3>Belajar Codding</h3>
+</div>
+
+<div class="sidebar" id="sidebar">
+  <a href="index.html">Beranda</a>
+  <a href="Event.html">Event</a>
+  <a href="Materi.html">Materi</a>
+  <a href="Aliansi Pelajar.html">Aliansi Pelajar</a>
+  <a href="Tentang kami.html">Penulis</a>
+</div>
+
+<div class="content">
+  <div class="device" style="text-align: center;margin-top: 40px;border: 2px black solid;">
+    <h1 style="font-size: 4rem;">💤💤💤</h1>
+    <h3>WEBSITE SEDANG DALAM PENGEMBANGAN DAN MEMAKAN WAKTU TIDAK LAMA</h3>
+    <h3>DIKARENAKAN ADMIN SEDANG UJIAN SERTA KADANG-KADANG MALES MENGEMBANGKAN WEBSITE</h3>
+    <h3>JADI MOHON SABAR DAN JANGAN LUPA UNTUK BERKUNJUNG KEMBALI SETELAH MAKAN DAN MINUM</h3>
+  </div>
+  <div class="mobile" style="text-align: center;margin-top: 40px;border: 2px black solid;">
+    <h1 style="font-size: 4rem;">💤💤💤</h1>
+    <h4>WEBSITE SEDANG DALAM PENGEMBANGAN DAN MEMAKAN WAKTU TIDAK LAMA</h4>
+    <h4>DIKARENAKAN ADMIN SEDANG UJIAN SERTA KADANG-KADANG MALES MENGEMBANGKAN WEBSITE</h4>
+    <h4>JADI MOHON SABAR DAN JANGAN LUPA UNTUK BERKUNJUNG KEMBALI SETELAH MAKAN DAN MINUM</h4>
+  </div>
+</div>
+    </body>
+    <style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.device {
+    display: block;
+}
+.mobile {
+    display: none;
+}
+/* TOPBAR */
+.topbar {
+  height: 60px;
+  background: #2c3e50;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+
+.menu-btn {
+  font-size: 25px;
+  cursor: pointer;
+  display: none;
+}
+
+/* SIDEBAR */
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 60px;
+  width: 200px;
+  height: 100%;
+  background: #3f5f7e;
+  padding-top: 20px;
+  transition: 0.3s;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background: #1abc9c;
+}
+
+/* CONTENT */
+.content {
+  margin-left: 220px;
+  padding: 20px;
+}
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .sidebar {
+    left: -220px;
+  }
+
+  .sidebar.active {
+    left: 0;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .content {
+    margin-left: 0;
+  }
+  .device{
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
+}
+</style>
+<script>
+function toggleSidebar() {
+  document.getElementById("sidebar").classList.toggle("active");
+}
+</script>
+</html>
