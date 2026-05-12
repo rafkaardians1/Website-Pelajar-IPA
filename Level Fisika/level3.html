@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Bunga Mawar</title>
+<style>
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f0f8ff;
+}
+
+/* Tangkai */
+.stem {
+  width: 6px;
+  height: 200px;
+  background: green;
+  position: relative;
+  margin: auto;
+}
+
+/* Daun */
+.leaf {
+  width: 40px;
+  height: 20px;
+  background: green;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.leaf.left {
+  left: -35px;
+  top: 80px;
+  transform: rotate(-30deg);
+}
+
+.leaf.right {
+  right: -35px;
+  top: 120px;
+  transform: rotate(30deg);
+}
+
+/* Pucuk bunga */
+.bud {
+  width: 40px;
+  height: 50px;
+  background: crimson;
+  border-radius: 50% 50% 40% 40%;
+  position: absolute;
+  top: -40px;
+  left: -17px;
+}
+
+/* Kelopak tambahan */
+.bud::before,
+.bud::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 40px;
+  background: darkred;
+  border-radius: 50%;
+}
+
+.bud::before {
+  left: -10px;
+  top: 5px;
+}
+
+.bud::after {
+  right: -10px;
+  top: 5px;
+}
+</style>
+</head>
+<body>
+
+<div class="stem">
+  <div class="leaf left"></div>
+  <div class="leaf right"></div>
+  <div class="bud"></div>
+</div>
+
+</body>
+</html>

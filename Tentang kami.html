@@ -1,192 +1,145 @@
 <!DOCTYPE html>
 <html lang="id">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="IE-edge">
-        <title>Beranda Pelajar Ipa</title>
-    </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Kami</title>
+    </head> 
+
     <body>
-        <div class="topbar">
-            <h1 style="padding: 10px;">Pelajar IPA</h1>
+
+<div class="topbar">
+  <span class="menu-btn" onclick="toggleSidebar()">☰</span>
+  <h3>Belajar Codding</h3>
+</div>
+
+<div class="sidebar" id="sidebar">
+  <a href="index.html">Beranda</a>
+  <a href="Event.html">Event</a>
+  <a href="Materi.html">Materi</a>
+  <a href="Tentang kami.html">Penulis</a>
+</div>
+
+<div class="content">
+    <h1>Hai Sobat</h1>
+  <!-- Khusus Desktop -->
+    <h3 style="font-weight: normal; width: 70vw;" class="device">
+    "Latihan pramuka yang kamu keluhkan saat ini adalah latihan yang akan kau rindukan suatu saat nanti"
+    </h3>
+    <!-- Khusus Mobile -->
+    <h4 style="font-weight: normal; width: 75vw;" class="mobile">
+    "Latihan pramuka yang kamu keluhkan saat ini adalah latihan yang akan kau rindukan suatu saat nanti"
+    </h4>
+    <!--Universal-->
+    <div class="tentang penulis" style="margin-top: 70px; border: 2px black solid; padding: 10px;">
+        <h1 style="text-align: center;"><b>TENTANG PENULIS</b></h1>
+        <h3>Nama : Rafka Ardian Saputra</h3>
+        <h3>Asal : SMPN 2 Krian</h3>
+        <h3>hobi : Yang penting gerak</h3>
+        <h3>Pesan penulis :</h3>
+        <div class="Cerita" style="margin-top: 10px;">
+            <p>Halo, namaku Rafka bisa dipanggil Kaka atau mas kaka bisa juga lainnya kecuali Om, Bapak, Mbah, kakek dan buyut.
+                Sudah itu saja terima kasih.... wkwkwkwkwk
+            </p>
         </div>
-        <nav>
-            <a href="index.html">Beranda</a>
-            <a href="#">Pertempuran</a>
-            <a href="#">Perpustakaan</a>
-            <a href="#">Toko</a>
-            <a href="Tentang kami.html">Tentang Kami</a>
-        </nav>
-            <div class="Pembukaan">
-                <h2>Tentang Kami Pelajar Ipa</h2>
-                <p>"Perjuangkan sesuatu yang kamu anggap itu penting sebab karena dengan itu
-                    kehidupan bagai siksaan pun akan menjadi lebih berarti"</p>
-            </div>
-            <div class="tombol" style="display: flex;justify-content: center;">
-                <div class="tabel">
-                    <a href="index.html">
-                        <p>Rumah</p>
-                    </a>
-                </div>
-                <div class="tabel">
-                    <a href="#">
-                       <p>Perang</p>
-                    </a>
-                </div>
-                <div class="tabel">
-                    <a href="#">
-                        <p>Buku</p>
-                    </a>
-                </div>
-                <div class="tabel">
-                    <a href="#">
-                        <p>Toko</p>
-                    </a>
-                </div>
-            </div>
-            <div class="papan">
-                <div class="teks1" style="margin: 5px;">
-                    <h1>
-                        Apa Itu Pelajar IPA?
-                    </h1>
-                    <p>
-                    Pelajar IPA adalah Komunitas bagi siswa-siswi atau Pelajar dan umum untuk 
-                    belajar mengenai Ilmu Pengetahuan Alam atau (IPA). Pelajar IPA memiliki Event
-                    yang menawarkan latihan soal dan pembahasan. Pelajar IPA juga menjual beberapa 
-                    ebook pembelajaran untuk membantu Sobat IPA belajar IPA. Gimana nih tertarik? 
-                    </p>
-                    <p>
-                    Instagram Pelajar IPA  :  PelajarIpa
-                    </p>
-                </div>
-            </div>
+    </div>
+    <div class="tentang website" style="margin-top: 70px; border: 2px black solid; padding: 10px;">
+        <h1 style="text-align: center;"><b>TENTANG WEBSITE</b></h1>
+        <h3>Nama website: Belajar Codding</h3>
+        <h3>Tujuan kami : Membantu para pelajar untuk belajar bahasa pemrograman HTML, CSS dan C++</h3>
+        <h3>Bahasa coding: HTML, CSS, C++</h3>
+        <h3>Pesan penulis :</h3>
+        <div class="Cerita" style="margin-top: 10px;">
+            <p>Sejarahnya karena gabut. Kini website belajar coding dapat diakses oleh siapa saja. Sekian terima kasih. 
+            </p>
+        </div>
+</div>
     </body>
-            <style>
-            *{
-                    font-family: Arial, Helvetica, sans-serif;            
-            }
-            .tabel {
-                    background: rgb(76, 98, 226);
-                    color: #e8fff1;
-                    text-align: center;
-            }
-            .tabel:hover {
-                    background-color: rgb(85, 165, 211);
-                    transform: scale(1.1);
-            }
-            body {
-                    background:rgb(243, 241, 236);       
-            }
-            .topbar{
-                    height:70px;
-                    display:flex;
-                    align-items:center;
-                    font-weight:bold;
-                    color:#e8fff1;
-            }              
-            nav h1{
-                    margin: 10px;
-                    color: aliceblue; 
-                    font-size: 2rem;           
-            }
-            .papan{
-                    background-color: cadetblue;
-            }
-     @media (min-width:1000px){
-            p {
-                font-size:  1.5rem;
-                text-align: left;}
-            .topbar{
-                width: 100%;
-                background: darkblue;               
-            }
-            nav{
-                background: rgb(8, 130, 212);
-                display: flex;
-                width: 100%;
-                height:10vh ;                
-            }
-            nav a{
-                color: aliceblue;
-                text-align: left;
-                font-weight: normal;
-                margin: 15px;     
-                font-size: 1.5rem; 
-                text-decoration: none;      
-            }     
-            .tabel{
-                width: 23vw;
-                height: 14vh;
-                margin: 15px; 
-                border: 3px black solid;               
-            }   
-            .tabel a{
-                text-decoration: none;
-                color: antiquewhite;                
-            }    
-            .tabel p{
-                font-size: 2rem;
-                text-align: center;}
-            }
-            .papan {
-                width:100% ;
-                height: 45vh;
-                border: 2px black solid;
-            }
-            .teks1 p{
-                font-size: 1.7rem;
-            }
-            .teks1 h1{
-                font-size: 2rem;
-            }
-        @media (max-width:768px){
-             p{ 
-                font-size: 1.3rem;            
-                text-align: left;
-            }
-        .topbar {
-                width: 100%;
-                background: darkblue;
-            }   
-        .tabel {
-                width: 20vw;
-                height: 11vh;
-                margin: 10px;   
-                border: 2px black solid;         
-            }
-        .tabel a{
-                text-decoration: none;  
-                color: antiquewhite; 
-                text-align: center;
-            }
-        .tabel p{
-                font-size: 1.5rem;
-                text-align: center;
-            }
-        nav {
-                background: rgb(8, 130, 212);    
-                display: flex;        
-                width: 100%;
-                height: 6vh;
-            }
-        nav a{
-                color: aliceblue;
-                text-align: left;
-                font-weight: normal;
-                margin: 10px;
-                text-decoration: none;
-            }
-        .papan {
-                width: 100%;
-                height: 50vh;
-                border: 1px black solid;
-        }
-        .teks1 p{
-                font-size:1.5rem ;
-        }
-        .teks1 h1{
-                font-size: 1.5rem;
-        }
-        }
-            </style>
+    <style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.device {
+    display: block;
+}
+.mobile {
+    display: none;
+}
+/* TOPBAR */
+.topbar {
+  height: 60px;
+  background: #2c3e50;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+
+.menu-btn {
+  font-size: 25px;
+  cursor: pointer;
+  display: none;
+}
+
+/* SIDEBAR */
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 60px;
+  width: 200px;
+  height: 100%;
+  background: #3f5f7e;
+  padding-top: 20px;
+  transition: 0.3s;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background: #1abc9c;
+}
+
+/* CONTENT */
+.content {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .sidebar {
+    left: -220px;
+  }
+
+  .sidebar.active {
+    left: 0;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .content {
+    margin-left: 0;
+  }
+  .device{
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
+}
+</style>
+<script>
+function toggleSidebar() {
+  document.getElementById("sidebar").classList.toggle("active");
+}
+</script>
 </html>
