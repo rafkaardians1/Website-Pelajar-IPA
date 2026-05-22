@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bunga Mekar by Rafka asekk</title>
+    </head>
+    <body>
+
+        <body class="tidak-ikut-serta-karna-tidur">
+            <div class="malam-berbintang"></div>
+            <div class="bunga-surgawi">
+                <div class="bunga-surgawi-I">
+                    
+                </div>
+            </div>
+        </body>
+        <!--Perbatasan-->
+    </body>
+</html>
+<style>
+    :root {
+        --warna-malam: #001;
+    }
+    body {
+        display: flex;
+        justify-content: center;
+        background-color: var(--warna-malam);
+        perspective: 1000px;
+        align-items: flex-end;
+        min-height: 100vh;
+        overflow: hidden;
+    }
+    .malam-berbintang {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        height: 100%;
+        background-image:
+        radial-gradient(ellipse at top, transparent 0%, var(--dark-color)),
+        radial-gradient(ellipse at bottom, var(--dark-color), rgba(145, 233, 255, 0.2)), 
+        repeating-linear-gradient(220deg, black 0px, black 19px, transparent 19px, transparent 22px),
+        repeating-linear-gradient(189deg, black 0px, black 19px, transparent 19px, transparent 22px),
+        repeating-linear-gradient(148deg, black 0px, black 19px, transparent 19px, transparent 22px), 
+        linear-gradient(90deg, #00fffa, #f0f0f0);
+        top: 0;
+    }
+</style>
