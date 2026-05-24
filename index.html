@@ -22,57 +22,67 @@
 </div>
 
 <div class="content">
+  <div class="pembukaan">
     <h1>Hai Sobat</h1>
-  <!-- Khusus Desktop -->
-    <h3 style="font-weight: normal; width: 70vw;" class="device">
+    <h2 class="device" style="font-weight: normal; width: 55vw;">
     "Berlajarlah menghargai keberadaan orang lain. Musuhmu adalah orang yang menyukaimu
-    tapi keberadaanya tidak selalu dianggap ada olehmu. Belajarlah menghargai karya orang lain.
-    Karena pemenang bukanlah orang yang egois tapi orang yang menghargai dan belajar dari orang lain"
+    tapi keberadaanya tidak selalu dianggap ada olehmu"
+    </h2>
+    <h3 class="mobile" style="font-weight: normal; width: 70vw;">
+    "Berlajarlah menghargai keberadaan orang lain. Musuhmu adalah orang yang menyukaimu
+    tapi keberadaanya tidak selalu dianggap ada olehmu"
     </h3>
-    <!-- Khusus Mobile -->
-    <h4 style="font-weight: normal; width: 75vw;" class="mobile">
-    ""Berlajarlah menghargai keberadaan orang lain. Musuhmu adalah orang yang menyukaimu
-    tapi keberadaanya tidak selalu dianggap ada olehmu"</h4>
-    <div class="panel-informasi-ikon" style="display: flex; justify-content: center; margin-top: -50px;">
-        <div class="tabel-keterangan" style="display: flex;justify-content: center;">
+  </div>
+
+    <div class="panel-kontrol-ikon">
+      <div class="tabel-keterangan" style="display: flex;justify-content: center;">
             <div class="tabel-keterangan-a" style="margin-right: 10px; font-size: 2rem; margin-top: -30px;">
               <h1>📚</h1>
             </div>
             <div class="tabel-keterangan-b" style="margin-top:5px;">
-              <h3 style="text-align: left;">MATERI CODING</h3>
-              <h2 style="text-align: left;">+12</h2>
+              <h2 style="text-align: left;">MATERI</h2>
+              <h1 style="text-align: left;">+12</h1>
             </div>
         </div>
         <div class="tabel-keterangan" style="display: flex;justify-content: center; margin-left: 40px;">
             <div class="tabel-keterangan-a" style="margin-right: 10px; font-size: 2rem; margin-top: -30px;">
-              <h1>📚</h1>
+              <h1>📅</h1>
             </div>
             <div class="tabel-keterangan-b" style="margin-top:5px;">
-              <h3 style="text-align: left;">MATERI CODING</h3>
-              <h2 style="text-align: left;">+12</h2>
+              <h2 style="text-align: left;">EVENT</h2>
+              <h1 style="text-align: left;">+1</h1>
             </div>
         </div>
         <div class="tabel-keterangan" style="display: flex;justify-content: center; margin-left: 40px;">
             <div class="tabel-keterangan-a" style="margin-right: 10px; font-size: 2rem; margin-top: -30px;">
-              <h1>📚</h1>
+              <h1>👥</h1>
             </div>
             <div class="tabel-keterangan-b" style="margin-top:5px;">
-              <h3 style="text-align: left;">MATERI CODING</h3>
-              <h2 style="text-align: left;">+12</h2>
+              <h2 style="text-align: left;">ANGGOTA</h2>
+              <h1 style="text-align: left;">+3</h1>
             </div>
         </div>
+
     </div>
     <!--BATAS WILAYAH ASEKKKK-->
 </div>
     </body>
     <style>
+.panel-kontrol-ikon {
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
 .tabel-keterangan {
     border: 2px black solid;
-    width: 20vw;
+    width: 19vw;
     text-align: center;
     margin-top: 70px;
     background: #a7cdf3;
     border-radius: 20px;
+    margin-left: 0;
 }
 .tombol {
     margin-top: 20px;
@@ -145,7 +155,7 @@ body {
 }
 
 /* RESPONSIVE */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .sidebar {
     left: -220px;
   }
@@ -172,6 +182,17 @@ body {
     padding: 8px;
     margin:10px;
   }
+  .tabel-keterangan {
+    width: 40vw;
+    margin-left: 40px;
+}
+  .panel-kontrol-ikon {
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
 }
 </style>
 <script>
